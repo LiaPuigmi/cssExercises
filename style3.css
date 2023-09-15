@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(255, 152, 152);
+}
+
+p{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 2px solid rgb(202, 0, 0);
+}
+
+
+h1:hover{
+    color: rgb(202, 0, 0);
+}
+
+p::selection{
+    color: rgb(73, 0, 70);
+    background-color: rgb(173, 242, 247);
+}
