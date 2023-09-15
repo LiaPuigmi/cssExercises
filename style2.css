@@ -1,0 +1,99 @@
+/* Seleccionar todo */
+*{
+background-color: aliceblue;
+}
+
+/* Seleccionar elementos tipo p */
+
+p{
+color: blue;
+}
+
+/* Selecciona el elemento con ID title-1 */
+#title-1{
+color: blueviolet;
+}
+
+/* Selecciona todos los elementos que pertenezca a la clase .bg-yellow */
+
+.bg-yellow{
+color: purple;
+}
+
+/* Selecciona todos los elementos que tengan el atributo ID */
+
+*[id]{
+background-color: aquamarine;
+}
+
+/* Selecciona todos los elementos que tengan el atributo ID y como valor title-1 */
+
+*[id="title-1"]{
+    background-color: antiquewhite;
+}
+
+/* Selecciona todos los elementos que tengan el atributo HREF con un valor https://www.yahoo.com */
+
+*[href="https://www.yahoo.com"]{
+    background-color: pink;
+}
+
+/* Selecciona todos los elementos que tengan el atributo class con un valor que empiece por title */
+
+*[class^="title"]{
+    background-color: palevioletred;
+}
+
+/* Selecciona todos los elementos que tengan el atributo HREF y que acaben en .com */
+
+*[href$=".com"]{
+    background-color: rgb(188, 155, 221);
+}
+
+/* Selecciona todos los elementos que tengan el atributo class con un valor title, title-1, title-2... */
+
+*[class^="title"]{
+    background-color: rgb(255, 196, 216);
+}
+
+/* Selecciona todos los elementos que tengan un atributo href y cuyo valor contenga 127 */
+
+*[href*="127"]{
+    background-color: rgb(139, 186, 240);
+}
+
+/* Selecciona todos los elementos que tengan el atributo href y cuyo valor empieze por http */
+
+*[href^="http"]{
+    background-color: rgb(83, 107, 134);
+}
+
+/* Selecciona los elementos que sean A, P, o H1 desde una única regla CSS */
+
+a, p, h1{
+    color: rgb(133, 0, 0);
+}
+
+/* Selecciona todos los elementos que pertezcan a main y que sean P */
+
+main p{
+    color: rgb(94, 0, 63);
+}
+
+/* Selecciona el siguiente elemento que sea hermano de H1 */
+
+h1+p{
+    color: rgb(133, 0, 0);
+}
+
+/* Selecciona todos los elementos que sean hermanos de H1 */
+
+h1~*{
+    background-color: rgb(250, 100, 200) !important;
+}
+
+/* Selecciona todos los elementos hijos directos de main */
+
+main>*{
+background-color: aquamarine;
+}
