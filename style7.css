@@ -1,0 +1,33 @@
+/* 
+
+Ejercicio 1 de Overflow
+
+body{
+    margin: 0px;
+}
+
+div{
+    margin: 0px;
+    background-color: greenyellow;
+    overflow: hidden;
+}
+p{
+    margin: 0px;
+    padding-top: 10px;
+} */
+
+/* Ejercicio 2 Overflow */
+
+body{
+    margin: 0px;
+}
+
+div{
+    margin: 0px;
+    background-color: greenyellow;
+    overflow: auto;
+}
+p{
+    margin: 0px;
+    padding-top: 10px;
+}
