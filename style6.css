@@ -1,0 +1,41 @@
+body{
+    background-color: azure;
+}
+
+table {border-collapse: collapse;}
+
+tbody{
+    display:block;
+    border: 2px solid black;
+    border-collapse: separate;
+    border-spacing: 4px; 
+    background-color:salmon;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 5px;
+}
+
+thead tr{
+    text-align: center;
+}
+
+thead tr th {
+    margin: 0px;
+    background-color: aqua;
+    width: 200px;
+    height: 20px;
+    display: block;
+    text-align: center;
+}
+
+tbody tr td{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pieTable{
+    padding: 0px;
+    background-color: aqua;
+}
