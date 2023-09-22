@@ -66,25 +66,29 @@ p{
 }
 
 .row2{
-    height: 240px;
+    height: 200px;
+    
 }
 
 .red2{
     position: relative;
-    top: 40px;
-    background-color: rgba(255, 0, 255, 0.7);
+    top: 45px;
+    background-color: rgba(255, 0, 0,1);
+    mix-blend-mode: screen;
 
 }
 
 .green2{
     position: relative;
     left: 100px;
-    background-color: rgba(255, 255, 0, 1);
+    background-color: rgba(0, 255, 0, 1);
+    mix-blend-mode: screen;
 
 }
 
 .blue2{
     position: relative;
     left: -100px;
-    background-color: rgba(0, 255, 255, 0.5);
+    background-color: rgba(0, 0, 255, 1);
+    mix-blend-mode:screen;
 }
